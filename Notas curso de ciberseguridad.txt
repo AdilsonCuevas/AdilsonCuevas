@@ -110,52 +110,80 @@ Directivas de seguridad: directiva de cuentas: drectivas de cuentas en windows y
 					dominio predeterminado con 24 contraseñas recordadas maximas
 		practica windows profesional : ejecutar -> secpol.msc directiva cuenta y contraseñas
 	implementacion de la seguridad en una organizacion: exigir precausion al usar dispositivos con conexion a internet
-		implementacion estandar, como la ISO 27001 -> basado en estandar britanico  se basa en establecer, implantar, mantener y mejorar en sistema de gestion de la seguridad de la informacion a traves del ciclo de Demin-PHVA con los procesos planificar, hacer, verificar y actuar
-						 ISO 27002 -> gria de buenas practicas a partir de objetivos de control cuenta con 39 objetivps de control y 133 controles agrupados en 11  dominios, es mas amplio para una organizacion dandole madurez a la iso 27001
-						 ISO 27005 -> 2008 provee pautas para la gestion de riesgo de la seguridad de la informacion, analisa, evalua y gestiona riesgos e ilustra un documento de de referencia para estas actividades 
+		implementacion estandar, como la ISO 27001 -> basado en estandar britanico  se basa en establecer, implantar, mantener y mejorar en sistema de gestion de la 
+			seguridad de la informacion a traves del ciclo de Demin-PHVA con los procesos planificar, hacer, verificar y actuar
+						 ISO 27002 -> gria de buenas practicas a partir de objetivos de control cuenta con 39 objetivps de control y 133 controles
+						 	agrupados en 11  dominios, es mas amplio para una organizacion dandole madurez a la iso 27001
+						 ISO 27005 -> 2008 provee pautas para la gestion de riesgo de la seguridad de la informacion, analisa, evalua y gestiona 
+						 	riesgos e ilustra un documento de de referencia para estas actividades 
 						 CoBIT -> marco de trabajo basado en dominios y procesos para optimizar la inversion de recursos del area IT brindando seguridad en los servicios, 
-						 ITIL -> biblioteca de infraestrucutura de tecnologias de infromacionpara la correcta gestion de servicios IT a traves de ciclos de vidabasado en ciclos de vida en temas de seguridad, capacidad y continuidad, 
+						 ITIL -> biblioteca de infraestrucutura de tecnologias de infromacionpara la correcta gestion de servicios IT a traves de ciclos 
+						 	de vidabasado en ciclos de vida en temas de seguridad, capacidad y continuidad, 
 						 BS 25999 -> aborda los alineamientos que debe contemplarse para la administracion de la continuiad del negocio
-						 NIST SP 800-30 -> ofrse pautas de gestion de riesgos buscando su evaluacion en la gestion, control y migrasion, asociado al iso 27005 para identificar sus metodos
-			caso practico: inicia realizando inventario de activos y realizando analisis de riesgo a travez de NIST SP 800-30 y ISO 27005, definir amenazas y vulnerabilidades sigiendo las buenas practivas de la ISO 27002, identificar los servicios en el area de tecnologia de la informacion
-					con las buenas practicas de ITIL y CiBIT, continuidad del negocio tomando como base BS 25999 para planes de continuidad, comites y grupos asociados a procesos, ua vez auditada y evaluada permitira la certificacion ISO 27001.
+						 NIST SP 800-30 -> ofrse pautas de gestion de riesgos buscando su evaluacion en la gestion, control y migrasion, asociado 
+						 	al iso 27005 para identificar sus metodos
+			caso practico: inicia realizando inventario de activos y realizando analisis de riesgo a travez de NIST SP 800-30 y ISO 27005, definir amenazas y
+				vulnerabilidades sigiendo las buenas practivas de la ISO 27002, identificar los servicios en el area de tecnologia de la informacion
+					con las buenas practicas de ITIL y CiBIT, continuidad del negocio tomando como base BS 25999 para planes de continuidad, comites 
+					y grupos asociados a procesos, ua vez auditada y evaluada permitira la certificacion ISO 27001.
 
-LOS MALWARE:  Software malicioso, tipo de software o aplicacion que puede dañar el dispositivo donde se aloja, instala o infiltra. lista de ingredientes: internet y correo electronico, no funcionana sin el permiso del cliente solamente con darle clic
-		dispositivos moviles android: mensajes invasivos, desconectarse de datos constantemente, consumo de bateria injustificable, hacer llamadas y envia mensajes de texto injustificable, telefono se calienta y el rendimiento disminuye, aplicaciones sorpresa, conectarse a wifi por si solo
+LOS MALWARE:  Software malicioso, tipo de software o aplicacion que puede dañar el dispositivo donde se aloja, instala o infiltra. lista de ingredientes: internet y correo 
+	electronico, no funcionana sin el permiso del cliente solamente con darle clic
+		dispositivos moviles android: mensajes invasivos, desconectarse de datos constantemente, consumo de bateria injustificable, hacer llamadas y envia mensajes de 
+			texto injustificable, telefono se calienta y el rendimiento disminuye, aplicaciones sorpresa, conectarse a wifi por si solo
 					     Iphone: ataque dirigido a estado o nacion adversario, seguridad de sistema operativo muy bueno, liberar iphone hace que se quite las restripciones,  
-		Ataque malware: programa antimalware legitimo los cuales son diseñados para buscar, eliminar los malware en el dispositivo, una vez limpio cambiar contraseñas, para iphone reiniciarlo de fabrica y activar la copia de seguridad.
+		Ataque malware: programa antimalware legitimo los cuales son diseñados para buscar, eliminar los malware en el dispositivo, una vez limpio cambiar contraseñas,
+			para iphone reiniciarlo de fabrica y activar la copia de seguridad.
 		tipos: virus informatico -> alterar funcionamiento del dispositivo, se necesita ser ejecutado por el usuario y puede replicar e infectar el equipo, 
 		       gusano informatico -> enviar spam de forma masiva y con modifica ningun archivo solamente envias copias a equipos de la misma red, 
 		       troyano -> pasar desadvertido mientras accede a tu dispositivo con intencion de ejecutar acciones ocultas para poder aaceder o robar informacion, 
-		       spyware -> se ejecutar para recolectar informacion del usuario para adueñarse del ordenador de forma no autorizada, se ejecuta mediante interaccion de una segunda aplicacion pero mas sigiloso que el troyano, 
+		       spyware -> se ejecutar para recolectar informacion del usuario para adueñarse del ordenador de forma no autorizada, se ejecuta mediante interaccion
+		       		de una segunda aplicacion pero mas sigiloso que el troyano, 
 		       adware -> meterse en su ordenador y mostrarte publicidad para navegar a internet mediante ventanas emergentes o popup,  
 		       rasomware -> secuentra los datos de su ordenador bloqueandolos para un rescate economico mediante un gusano informatico, 
-		       redes de robot (BOTNET) red para ejecutar malware y una vez ejecutado el ordenador lo puedes controlar como quieras y adquirir esta informacion y asi coordinar ataques para casos especificos
-		Tecnicas de infeccion de equipos: debe ser implantado de alguna manera en el ordenador de la victima, lo mas comun es la distribuicion de codigo malicioso a traves de la navegacion por paginas web
+		       redes de robot (BOTNET) red para ejecutar malware y una vez ejecutado el ordenador lo puedes controlar como quieras y adquirir esta informacion y asi 
+		       		coordinar ataques para casos especificos
+		Tecnicas de infeccion de equipos: debe ser implantado de alguna manera en el ordenador de la victima, lo mas comun es la distribuicion de codigo malicioso 
+				a traves de la navegacion por paginas web
 						errores de software -> tratar de explotar y manipular los errores de fabrica 
 						ingenieria social y fallos de usuarios -> se utilizan extenciones de archivos para determinar asociaciones de archivos de usuario
 						vulnerabilidad de los sistemas operativos -> hallar una vulnerabilidad y ejecutar la propagacion de informacion a los millones de usuarios que lo utilizan 
 		Estrategias de distribuicion: redes sociales, sitios web falsos, jegos en linea, 
 		Deteccion automatizada: ciberarmas como APTs, CAPTCHA, Inteligencia artificual, hadoop para big data.
 
-Cultura Cibernetica: alfabetizacion digital: incremente la ciberseguridad para enfrentar los riesgos como ciberacoso, sexting, gooming, revelacion informatica. por tanto crea retos como crear mejor infraestructura, grarantizar oportunidades de educacion, generar equidad de acceso, mejora la calidad de la educacion
-		     CERT: (computer emergency response team) equipo de personas dedicado a prevenir, detectar y responder eficazmente a los incidentes de seguridad que puedan materializarse, 
-		     Plan de respuesta a incidentes: incidentes(daños fisicos, involuntarios, fallos en las configuraciones, denegacion de servicio, violacion de requisitos), la ejecucion correcta es detallar las acciones y el objetivo es aseguriar de que los miembros de la organizacion conoce los procedimientos, comunicar medidas de forma correcta
-						     segun INCIBE, existe una serie de controles para revisar los cumolimientosde las politicas de seguridad: niveles de complejidad -> basico y avanzado y el alcance-> proesos, tecnologia y personas. aspectos claves -> caducidad del plan de gestion, deteccion del incidente, evaluacion del incidente. notificacion
-						     resoluion de incidente-> recoger evidencias, estimacion de tiempo, escalado conveniente. tratamiento de registro de incidentes->fecha y hora de aparicion, tipologia y gravedad, recursos afectados, estado actual, acciones realiadas y quien lo ejecuto, fecha y hora de cierre 
-						     cumplimento de RGPD-> obliga notificar las violaciones de dtos de caracter personal, plan de contingencia->evitar perdidas de vida, mantener la confianza, lograr las conexiones con los clientes, proteger el medio anviente, reanudad las operaciones
+Cultura Cibernetica: alfabetizacion digital: incremente la ciberseguridad para enfrentar los riesgos como ciberacoso, sexting, gooming, revelacion informatica. por tanto crea 
+	retos como crear mejor infraestructura, grarantizar oportunidades de educacion, generar equidad de acceso, mejora la calidad de la educacion
+		     CERT: (computer emergency response team) equipo de personas dedicado a prevenir, detectar y responder eficazmente a los incidentes de seguridad que puedan 
+		     		materializarse, Plan de respuesta a incidentes: incidentes(daños fisicos, involuntarios, fallos en las configuraciones, denegacion de servicio, violacion de
+				requisitos),la ejecucion correcta es detallar las acciones y el objetivo es aseguriar de que los miembros de la organizacion conoce los procedimientos,
+				comunicar medidas de forma correcta
+						     segun INCIBE, existe una serie de controles para revisar los cumolimientosde las politicas de seguridad: niveles de complejidad 
+						     	-> basico y avanzado y el alcance-> proesos, tecnologia y personas. aspectos claves -> caducidad del plan de gestion, deteccion 
+							del incidente, evaluacion del incidente. notificacion
+						     resoluion de incidente-> recoger evidencias, estimacion de tiempo, escalado conveniente. tratamiento de registro de incidentes
+						     	->fecha y hora de aparicion, tipologia y gravedad, recursos afectados, estado actual, acciones realiadas y 
+							quien lo ejecuto, fecha y hora de cierre 
+						     cumplimento de RGPD-> obliga notificar las violaciones de dtos de caracter personal, plan de contingencia
+						     	->evitar perdidas de vida, mantener la confianza, lograr las conexiones con los clientes, proteger el 
+							medio anviente, reanudad las operaciones
 		     filtros de Spam: 
 		     Antivirus: bitdefender, norton, panda, mcAfee, BullGuard
 		     Copias de seguridad y plan de contingencia: criterios de clasificacion -> accesibilidad y confidencialidad, funcionalidad, impacto en caso de robo
-								 periodisidad y tipo de copias -> realizar un analisis para determinar la frecuencia de realizar copias como numero de datos generados, coste de almacenamiento, obligaciones legales en cuanto a la realizacion de backup 
-								 tipos de copias de seguridas -> scopia en espejo, copia completa, copia diferencial y copia incremental, estrategia 3-2-1 copias de seguridad se basa en diversificar las copias para garantizar que siempre haya alguna recuperable. 3) mantener 3 copias de ficheros importantes 2) almacenar las copias en 
-								 dis soportes distintos de almacenamiento, almacenar una copia fuera de la empresa el cual se reconoce como backup offsite.
+								 periodisidad y tipo de copias -> realizar un analisis para determinar la frecuencia de realizar copias como 
+								 	numero de datos generados, coste de almacenamiento, obligaciones legales en cuanto a la realizacion de backup 
+								 tipos de copias de seguridas -> scopia en espejo, copia completa, copia diferencial y copia incremental, 
+								 	estrategia 3-2-1 copias de seguridad se basa en diversificar las copias para garantizar que siempre haya 
+									alguna recuperable. 3) mantener 3 copias de ficheros importantes 2) almacenar las copias en distintos soportes distintos de almacenamiento, 
+									almacenar una copia fuera de la empresa el cual se reconoce como backup offsite.
 		     fortificacion de contraseñas: longitud minima de 8 caracteres, utilzar concatenacion de varias paralavas, no estar compuesta de datos propios. 
-		     active directory: proporcionan funcionalidad de autenticacion, directorio, gestion de grupos, administracion de politicas, servicios basados en DNS, LDAP (protocolo ligero de acceso a directorios) define el lenguaje utilizado a clientes mediante direcciones IP
-		     DMZ: zona desmilitarizada es un mecanismo utilizado en el ambito empresarial para proteger conexiones de red como una red local o ip privada, implementando un cortafuego o firewall
+		     active directory: proporcionan funcionalidad de autenticacion, directorio, gestion de grupos, administracion de politicas, servicios basados en DNS, LDAP 
+		     	(protocolo ligero de acceso a directorios) define el lenguaje utilizado a clientes mediante direcciones IP
+		     DMZ: zona desmilitarizada es un mecanismo utilizado en el ambito empresarial para proteger conexiones de red como una red local o ip privada, 
+		     	implementando un cortafuego o firewall
 
-La seguridad en la actualidad: Incibe -> tendencias del mercado de la ciberseguridad *mecanisomos para la toma de siciones, identificacion de tendencias [conjunto representativo de referencias bibiograficas], selecion y sectorizacion, analisis de tendencia [experiencia de exito de empresas y casos reales de aplicaciones de la tendencia]. 
-					 macro de tendencia Socio-economico * las megaciudades juegan un papel fundamental en la adopcion de la tecnologia - neceidad de talento, innovacion disruptiva, generacion masiva de datos y nuevos modelos de pago. 
+La seguridad en la actualidad: Incibe -> tendencias del mercado de la ciberseguridad *mecanisomos para la toma de siciones, identificacion de tendencias [conjunto representativo de referencias 
+	bibiograficas], selecion y sectorizacion, analisis de tendencia [experiencia de exito de empresas y casos reales de aplicaciones de la tendencia]. 
+					 macro de tendencia Socio-economico * las megaciudades juegan un papel fundamental en la adopcion de la tecnologia - neceidad de talento, innovacion disruptiva, 		generacion masiva de datos y nuevos modelos de pago. 
 					 Tendencias TIC -> manifiestan la especial relevancia de la conexion y ubicuidad de los datos, donde el big data es un elemento esencial, 
 			       		 Ciberseguridad en los sectores: industrial, Medio Ambiente, Movilidad, Economia, Ciudadania, Gobernanza, TIC
 					 Gobierno de la Ciberseguridad -> 
