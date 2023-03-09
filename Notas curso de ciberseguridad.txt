@@ -59,19 +59,20 @@ Analisis de procesos y actividades: importar el tamaño de la actividad, primer 
 			    IEC 31010.2009 evaluacion de riesgo
 			    ISO/IEC 27005.2011 directrices para la gestion del riesgo y la seguridad de la informacion	
 		Metodologias: Magerit (metodologia de analisis y gestiom de riesgo de los sistemas de informacion de las administraciones publicas) herramienta informatizada PILAR
-		Permite: crea y proteje el valor de la organizacion, agiliza y fortalice el proceso de toma de desiciones, prevenir la interruccion, salvaguardar la reputacion, atenua responsabilidades legales, asignar recursos
-			 reducir pasivos, mejora el entorno organizativo
+		Permite: crea y proteje el valor de la organizacion, agiliza y fortalice el proceso de toma de desiciones, prevenir la interruccion, salvaguardar la reputacion, 
+			atenua responsabilidades legales, asignar recursos reducir pasivos, mejora el entorno organizativo
 
-Defensa Ante Ataques: Bastinado de sistemas y aplicaciones 
-			Consiste en asegurar un sistema mediante la reduccion de puntos vulnerables
-			Cambiar clabes, desinstalar software innecesarios, dar de baja a usuarios innecesarios, deshabilitar servicios que no se utilizan, Aumentar la seguridad de procesos
+Defensa Ante Ataques: Bastinado de sistemas y aplicaciones Consiste en asegurar un sistema mediante la reduccion de puntos vulnerables
+			Cambiar clabes, desinstalar software innecesarios, dar de baja a usuarios innecesarios, deshabilitar servicios que no se utilizan, 
+			Aumentar la seguridad de procesos
 			Cerrar Puertos, Utilizar Backup, instalar firewall, actualizar sistemas para obtener parches de seguridad, 
 			Bastinado de endpoints, bastinado de servidores, proteccion de dispositivos moviles, proteccion de correos, bastinado de red,bastinado de maquinas
 			distribuicion de linux CHMOD r lectura, w escritura, x ejecucion, u propietario de archivo, g grupo, o otros, 
 		Mecanismos de Autenticacion: Email y password [SMTP], token[2FA identificador aleatorio, Hardware o USB y software], 	
 					    estandar jwt [json web token, header-payload-signature], Oauth [open authorization HTTPS], Oauth2 [], two factor, Biometria [rasgos fisicos del usuario]
 Infraestructura tecnologica: capas (Aplicaciones, Herramientas y servicios, Servicios, Almacenamiento, red) monitorizacion de los sistemas, reduccion de riesgos
-			    Pasos para actualizacion de infraestructura (evaluacion tecnologica y objetivo deseado, compras por volumen, tener clara la tacnologia a implementar, estudiar casos de implementacion, considerar la incorporacion en la nube para ahorro)
+			    Pasos para actualizacion de infraestructura (evaluacion tecnologica y objetivo deseado, compras por volumen, tener clara la tacnologia a implementar, 
+			    estudiar casos de implementacion, considerar la incorporacion en la nube para ahorro)
 		Entorno de prueba: unitarias, de integracion, funcionales, aceptacion y rendimiento sesion 6 plantilla html
 
 Vulnerabilidades: debilidad en el software o hardware por fallos de diseño, errores de configuracion
@@ -84,7 +85,8 @@ Vulnerabilidades: debilidad en el software o hardware por fallos de diseño, err
 		falsificacion de peticiones a sitios cruzados
 		utilizacion de componentes con vulnerabilidades conocidas
 		redirecciones y reenvios no validados  	
-	Riesgo: brechas de seguridad ->identidicar activos criticos (definir alcance de riesgo, valorar los activos, identificar amenazas, caracteristicas de activos, amenza-probabilidad e impacto, tratar aquello) mediante analisis 
+	Riesgo: brechas de seguridad ->identidicar activos criticos (definir alcance de riesgo, valorar los activos, identificar amenazas, caracteristicas de activos,
+		amenza-probabilidad e impacto, tratar aquello) mediante analisis 
 		eviar, adoptar medidas y transferir el riesgo -> deteccion, clasificacion de vulnerabilidad y resolucion de problemas
 		Analisis: realizar inventario de activos, realizar pruebas de penetracion o hackin etico
 		practicas: copias de seguridad, gestion de contraseñas, sistemas informaticos actualizados, monitorizar los avisos de vulnerabilidades y cumplir la ISO 27001
