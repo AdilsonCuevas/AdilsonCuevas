@@ -183,7 +183,7 @@ Cultura Cibernetica: alfabetizacion digital: incremente la ciberseguridad para e
 
 La seguridad en la actualidad: Incibe -> tendencias del mercado de la ciberseguridad *mecanisomos para la toma de siciones, identificacion de tendencias [conjunto representativo de referencias 
 	bibiograficas], selecion y sectorizacion, analisis de tendencia [experiencia de exito de empresas y casos reales de aplicaciones de la tendencia]. 
-					 macro de tendencia Socio-economico * las megaciudades juegan un papel fundamental en la adopcion de la tecnologia - neceidad de talento, innovacion disruptiva, 		generacion masiva de datos y nuevos modelos de pago. 
+					 macro de tendencia Socio-economico * las megaciudades juegan un papel fundamental en la adopcion de la tecnologia - neceidad de talento, innovacion disruptiva, generacion masiva de datos y nuevos modelos de pago. 
 					 Tendencias TIC -> manifiestan la especial relevancia de la conexion y ubicuidad de los datos, donde el big data es un elemento esencial, 
 			       		 Ciberseguridad en los sectores: industrial, Medio Ambiente, Movilidad, Economia, Ciudadania, Gobernanza, TIC
 					 Gobierno de la Ciberseguridad -> 
