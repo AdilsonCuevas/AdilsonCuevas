@@ -24,17 +24,22 @@ Ataques: fuerza Bruta: descifrar contraseña, mejora el procesamiento en la conb
 	 DoS(Denegacion de servicios): Smurf -> envio de paquetes falsos para inundar la direccion IP 
 				       Ping -> sobrecargar el objetivo con paquetes ICMP para denegar el servicio
 				       Ping Muerte -> envio de paquetes malformados a una maquina para dañar el comportamiento del sistema. 
-				     Prevencion: herramientas de monitoreo, Adquirir nuevos servidores que obsorben el trafico y peticiones, hardware anti-DDoS y servicios cloud
-	DDoS:(Denegacion de servicios Distribuidos): va destinado al servidor web o a la red informatica y la generan desde diferentes dispositivos el cual se hace dificil de detectar la IP
+				     Prevencion: herramientas de monitoreo, Adquirir nuevos servidores que obsorben el trafico y peticiones, hardware anti-DDoS
+				     y servicios cloud
+	DDoS:(Denegacion de servicios Distribuidos): va destinado al servidor web o a la red informatica y la generan desde diferentes dispositivos el cual se hace dificil 
+						de detectar la IP
 						Volumetricos: sobrecargar la red para saturar el ancho de banda
-						Protocolo: intentan consumir y agotar la capacidad informatica de los recursos de infraestructura de redcomo servidores o firewalls a raves de solicitudes
+						Protocolo: intentan consumir y agotar la capacidad informatica de los recursos de infraestructura de redcomo servidores o firewalls 
+							a raves de solicitudes
 						Capa de aplicacion: solicitudes por segundo (RPS)
-					prevencion: Actualizar el firewae del router, usar contraseñas fuertes de wifi, activar seguridad de router, contratacion de compañias especializadas
-		WPScan Software para Kali Linux  
-	Ransomware: impide a los usuarios acceder a los datos personales o al sistemay exige un pago para su rescate, se utiiza mediante el phising y spam por correo electronico 
+					prevencion: Actualizar el firewae del router, usar contraseñas fuertes de wifi, activar seguridad de router, contratacion de compañias 
+						especializadas WPScan Software para Kali Linux  
+	Ransomware: impide a los usuarios acceder a los datos personales o al sistemay exige un pago para su rescate, se utiiza mediante el phising y spam por correo 
+			electronico 
 		    tipos: cifrado de archivos, bloqueado del sistema, Leakware (amenaza de publicar informacion sencible), scareware(usa el miedo para sacar dinero)
 		    prevenir: programas de seguridad, utilizar filtrado de emails con mensajes maliciosos, anti-malmware
-	Phishing: engañar a personas para que compartan contraseñas y numeros de tarjetas de credito, utilizando ingenieria social y es de los mas sencillos y peligroso en su efectividad.
+	Phishing: engañar a personas para que compartan contraseñas y numeros de tarjetas de credito, utilizando ingenieria social y es de los mas sencillos y peligroso 
+		en su efectividad.
 		  tipos: Ingenieria social -> manipular a la victima para que actue rapido con informacion engañosa
 		         Imitacion de enlaces -> redireccionar enlaces a donde le solicitan la informacion para su supuesta prevencion 
 		  Prevenir: di descargar archivos, no acceder a enlaces maliciosos, revisa su informacion principal con frecuencia 
